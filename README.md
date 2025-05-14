@@ -31,9 +31,9 @@
 ---
 
 ### Architecture
-<p align="center" width=75% height=75%  >
+<a align="center" >
 <img width=75% height=75% src="https://drive.google.com/uc?export=view&id=1y49WyPbbQv2PXUhHQJBOLskeNXUIX03d"></img>
-</p>
+</a>
 
 ---
 
