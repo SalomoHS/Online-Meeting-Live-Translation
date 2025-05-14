@@ -24,8 +24,8 @@
 </p>
 
 <p align="center">
-  <img alt="Amazon Transcribe" title="Amazon Transcribe" src="https://img.shields.io/badge/Amazon%20Transcribe-6DA55F?logoColor=white"/>
-  <img alt="Amazon Translate" title="Amazon Translate" src="https://img.shields.io/badge/Amazon%20Translate-6DA55F?logoColor=white"/>
+  <img alt="Amazon Transcribe" title="Amazon Transcribe" src="https://img.shields.io/badge/Amazon%20Transcribe-green?logoColor=white"/>
+  <img alt="Amazon Translate" title="Amazon Translate" src="https://img.shields.io/badge/Amazon%20Translate-green?logoColor=white"/>
 </p>
 
 ---
