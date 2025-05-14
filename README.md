@@ -31,8 +31,9 @@
 ---
 
 ### Architecture
-<img align="center" width=50% height=50% src="https://drive.google.com/uc?export=view&id=1y49WyPbbQv2PXUhHQJBOLskeNXUIX03d"></img>
-  
+<p align="center" >
+<img width=75% height=75% src="https://drive.google.com/uc?export=view&id=1y49WyPbbQv2PXUhHQJBOLskeNXUIX03d"></img>
+</p>
 ---
 
 ### Program Flow
