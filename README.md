@@ -24,8 +24,8 @@
 </p>
 
 <p align="center">
-  <img alt="Amazon Transcribe" title="Amazon Transcribe" src="https://img.shields.io/badge/Amazon%20Transcribe-44A833?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
-  <img alt="Amazon Translate" title="Amazon Translate" src="https://img.shields.io/badge/Amazon%20Translate-44A833?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
+  <img alt="Amazon Transcribe" title="Amazon Transcribe" src="https://img.shields.io/badge/Amazon%20Transcribe-44A833?logo=amazonwebservices&logoColor=white"/>
+  <img alt="Amazon Translate" title="Amazon Translate" src="https://img.shields.io/badge/Amazon%20Translate-44A833?s&logoColor=white"/>
 </p>
 
 ---
