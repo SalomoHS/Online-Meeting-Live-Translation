@@ -7,6 +7,10 @@
 </p>
 
 <p align="center">
+<img width=25% height=25% src="https://drive.google.com/uc?export=view&id=1y49WyPbbQv2PXUhHQJBOLskeNXUIX03d"></img>
+</p>
+
+<p align="center">
   Destroy language barrier for online meeting participant to understand convesation. <br>
   Translation and transcription is using amazon transcribe and amazon translate. <br>
   AWS services injected on online meeting app to capture audio through chrome extension.
@@ -27,13 +31,6 @@
   <img alt="Amazon Transcribe" title="Amazon Transcribe" src="https://img.shields.io/badge/Amazon%20Transcribe-44A833?logo=amazonwebservices&logoColor=white"/>
   <img alt="Amazon Translate" title="Amazon Translate" src="https://img.shields.io/badge/Amazon%20Translate-44A833?logo=amazonwebservices&logoColor=white"/>
 </p>
-
----
-
-### Architecture
-<a align="center" >
-<img width=25% height=25% src="https://drive.google.com/uc?export=view&id=1y49WyPbbQv2PXUhHQJBOLskeNXUIX03d"></img>
-</a>
 
 ---
 
