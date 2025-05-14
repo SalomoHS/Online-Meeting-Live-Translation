@@ -31,10 +31,9 @@
 ---
 
 ### Program Flow
-1. User install
-2. User open program through chrome extension.
-3. User click start listening.
-4. Translation & Transcription on bottom center of the screen.
+1. User open program through chrome extension.
+2. User click start listening.
+3. Translation & Transcription on bottom center of the screen.
 
 ---
 
