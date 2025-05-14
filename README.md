@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<img width=25% height=25% src="https://drive.google.com/uc?export=view&id=192Gt1_OEQ_NY-FpA4sTMBJk_HqZrianv"></img>
+<img width=25% height=25% src="https://drive.google.com/uc?export=view&id=1BfrAhibDeOuKmRM7ngvtaXDMZoDFdLD3"></img>
 </p>
 
 <p align="center">
