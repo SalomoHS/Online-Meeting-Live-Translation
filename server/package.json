@@ -1,0 +1,17 @@
+{
+  "name": "aws-websocket",
+  "version": "1.0.0",
+  "description": "websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "salomo",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-transcribe-streaming": "^3.712.0",
+    "@aws-sdk/client-translate": "^3.713.0",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.0"
+  }
+}
