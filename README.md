@@ -30,6 +30,11 @@
 
 ---
 
+### Architecture
+<img src="https://app.eraser.io/workspace/X3t9xNhvWbZmdHeXF5YQ/preview?elements=Rnva8MjiPyiM35F6fQHfkg&type=embed" />
+
+---
+
 ### Program Flow
 1. User open program through chrome extension.
 2. User click start listening.
