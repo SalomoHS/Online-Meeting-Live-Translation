@@ -31,7 +31,7 @@
 ---
 
 ### Architecture
-[View on Eraser![](https://app.eraser.io/workspace/X3t9xNhvWbZmdHeXF5YQ/preview?elements=Rnva8MjiPyiM35F6fQHfkg&type=embed)](https://app.eraser.io/workspace/X3t9xNhvWbZmdHeXF5YQ?elements=Rnva8MjiPyiM35F6fQHfkg)
+<a href="#">View on Eraser<br /><img src="https://app.eraser.io/workspace/X3t9xNhvWbZmdHeXF5YQ/preview?elements=Rnva8MjiPyiM35F6fQHfkg&type=embed" /></a>
 
 ---
 
