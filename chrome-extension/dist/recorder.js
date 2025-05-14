@@ -4,13 +4,9 @@ chrome.runtime.onMessage.addListener(async function (request, sender, sendRespon
     if (request.action === "StartTranscription") {
       console.log("Received recorder start streaming message", request);
       chrome.runtime.sendMessage({ action: "transcription", data: "Hello from the tab!" });
-
-    //   startStreaming();
-    // startListen();
     } else if (request.action === "StopTranscription") {
       console.log("Received recorder stop streaming message", request);
-    //   stopStreaming();
-    // stopListen();
+
     }
 }); 
 const Ask = async () => {
@@ -102,7 +98,6 @@ const stopStreaming = async () => {
 async function startStreaming() {
     console.log('Start button clicked');
     try {
-        // const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
         displayStream = await navigator.mediaDevices.getDisplayMedia({
             preferCurrentTab: true,
             video: true,
@@ -120,10 +115,6 @@ async function startStreaming() {
         monoDisplaySource.connect(processor);
         processor.connect(audioContext.destination);
 
-        // displayStream.getAudioTracks()[0].onended = () => {
-        //     stopStreaming();
-        // };
-
         processor.onaudioprocess = (e) => {
             const float32Array = e.inputBuffer.getChannelData(0);
             const int16Array = new Int16Array(float32Array.length);
@@ -132,14 +123,6 @@ async function startStreaming() {
             }
             console.log('Sending audio chunk to server, size:', int16Array.buffer.byteLength);
             socket.emit('audioData', int16Array.buffer);
-            // const buffer = new ArrayBuffer(e.length * 2);   
-            // const view = new DataView(buffer);
-            // for (let i = 0; i < e.length; i += 1) {
-            //     const s = Math.max(-1, Math.min(1, e[i]));
-            //     view.setInt16(i * 2, s < 0 ? s * 0x8000 : s * 0x7fff, true);
-            // }
-            // console.log('Sending audio chunk to server, size:', buffer.byteLength);
-            // socket.emit('audioData', buffer);
         };
 
         socket.emit('startTranscription');

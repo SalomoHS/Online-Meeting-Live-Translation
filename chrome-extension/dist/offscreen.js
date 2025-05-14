@@ -1,20 +1,3 @@
-// chrome.runtime.onMessage.addListener(async (message) => {
-//   if (message.target === 'offscreen') {
-//     switch (message.type) {
-//       case 'start-recording':
-//         console.log('StarRecord')
-//         // startRecording(message.data);
-//         break;
-//       case 'stop-recording':
-//         console.log('StarRecord')
-//         // stopRecording();
-//         break;
-//       default:
-//         throw new Error('Unrecognized message:', message.type);
-//     }
-//   }
-// });
-
 import {
   TranscribeStreamingClient,
   StartStreamTranscriptionCommand,
@@ -55,22 +38,13 @@ async function startRecording(streamId) {
     data = [];
   };
   recorder.start();
-
-  // Record the current state in the URL. This provides a very low-bandwidth
-  // way of communicating with the service worker (the service worker can check
-  // the URL of the document and see the current recording state). We can't
-  // store that directly in the service worker as it may be terminated while
-  // recording is in progress. We could write it to storage but that slightly
-  // increases the risk of things getting out of sync.
   window.location.hash = 'recording';
 }
 
 async function stopRecording() {
   recorder.stop();
 
-  // Stopping the tracks makes sure the recording icon in the tab is removed.
   recorder.stream.getTracks().forEach((t) => t.stop());
 
-  // Update current state in URL
   window.location.hash = '';
 }

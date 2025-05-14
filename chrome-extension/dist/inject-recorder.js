@@ -1,24 +1,6 @@
 
 const iframe = document.createElement("iframe");
 iframe.id = "microphone";
-// iframe.setAttribute(
-//     "style",
-//     `
-//   all: initial;
-//   position: fixed;        
-//       bottom: 80px;           
-//       left: 50%;
-//       width: 100%;                
-//       transform: translateX(-50%);
-//       color: white;          
-//       padding: 12px 20px;     
-//       font-size: 18px;        
-//       border-radius: 8px;     
-//       max-width: 80%;         
-//       text-align: center;
-//       z-index: 9999;
-//   `
-//   );
 iframe.setAttribute("hidden", "hidden");
 iframe.setAttribute("id", "permissionsIFrame");
 iframe.setAttribute("allow", "microphone; camera; display-capture;");
