@@ -33,7 +33,8 @@
 ### Program Flow
 1. User open program through chrome extension.
 2. User click start listening.
-3. Translation & Transcription on bottom center of the screen.
+3. Javascript will capture the audio, then handle the connection to amazon transcript and translate
+4. Translation & Transcription on bottom center of the screen.
 
 ---
 
