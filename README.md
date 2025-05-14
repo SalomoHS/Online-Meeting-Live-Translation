@@ -1,5 +1,5 @@
 <p align="center">
-  <h3 align="center">Online Meeting Live Translation</h3>
+  <h3 align="center">Live Translation Online Meeting</h3>
 </p>
 
 <p align="center">
