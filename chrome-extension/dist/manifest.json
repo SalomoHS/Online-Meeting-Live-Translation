@@ -1,0 +1,58 @@
+{
+    "manifest_version":3,
+    "version":"1.0",
+    "name": "Live Meeting Assistant",
+    "action": {
+      "default_title": "Click to open Amazon Live Meeting Assistant",
+      "default_icon": "icon.png"
+    },
+    "permissions": [
+      "storage",
+      "sidePanel",
+      "identity",
+      "tabs",
+      "scripting",
+      "activeTab",
+      "nativeMessaging",
+      "tabCapture",
+      "offscreen"
+    ],
+    "side_panel": {
+        "default_path": "index.html"
+    },
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*",
+      "*://*/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": [
+          "inject-recorder.js"
+        ]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "index.html",
+          "recorder.html",
+          "recorder.js",
+          "aws.html",
+          "aws.js",
+          "audio-worklet.js"
+        ],
+        "matches": [
+          "http://*/*",
+          "https://*/*",
+          "*://*/*"
+        ]
+      }
+    ]
+}
