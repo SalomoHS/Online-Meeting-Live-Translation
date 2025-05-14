@@ -14,7 +14,7 @@
 
 <p align="center">
     <img alt="Typescript" title="Typescript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
-    <img alt="AWS" title="AWS" src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+    <img alt="AWS" title="AWS" src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
 </p>
 
 <p align="center">
@@ -24,8 +24,8 @@
 </p>
 
 <p align="center">
-  <img alt="Amazon Transcribe" title="Amazon Transcribe" src="https://img.shields.io/badge/Amazon%20Transcribe-green?logoColor=white"/>
-  <img alt="Amazon Translate" title="Amazon Translate" src="https://img.shields.io/badge/Amazon%20Translate-green?logoColor=white"/>
+  <img alt="Amazon Transcribe" title="Amazon Transcribe" src="https://img.shields.io/badge/Amazon%20Transcribe-44A833?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
+  <img alt="Amazon Translate" title="Amazon Translate" src="https://img.shields.io/badge/Amazon%20Translate-44A833?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
 </p>
 
 ---
