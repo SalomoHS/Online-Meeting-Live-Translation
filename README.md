@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  Destroy language barrier for online meeting particippant to understand convesation. <br>
+  Destroy language barrier for online meeting participant to understand convesation. <br>
   Translation and transcription is using amazon transcribe and amazon translate. <br>
   AWS services injected on online meeting app to capture audio through chrome extension.
 </p>
@@ -33,8 +33,8 @@
 ### Program Flow
 1. User open program through chrome extension.
 2. User click start listening.
-3. Javascript will capture the audio, then handle the connection to amazon transcript and translate
-4. Translation & Transcription on bottom center of the screen.
+3. Javascript will capture the audio, then handle the connection to amazon transcript and translate the audio.
+4. Translation & Transcription will appear on bottom center of the screen.
 
 ---
 
