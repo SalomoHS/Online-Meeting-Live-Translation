@@ -31,9 +31,8 @@
 ---
 
 ### Architecture
-<img width=75% height=75% src="https://drive.google.com/uc?export=view&id=1y49WyPbbQv2PXUhHQJBOLskeNXUIX03d"></img>
 <a align="center" >
-<img width=75% height=75% src="https://drive.google.com/uc?export=view&id=1y49WyPbbQv2PXUhHQJBOLskeNXUIX03d"></img>
+<img width=25% height=25% src="https://drive.google.com/uc?export=view&id=1y49WyPbbQv2PXUhHQJBOLskeNXUIX03d"></img>
 </a>
 
 ---
