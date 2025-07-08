@@ -42,6 +42,13 @@
 
 ---
 
+### Screenshots
+<img width=50% src="https://salomohendriansudjono.carrd.co/assets/images/gallery09/08a74c68_original.jpg?v=d7ca13bc"></img>
+<img width=50% src="https://salomohendriansudjono.carrd.co/assets/images/gallery09/f32b7d83_original.jpg?v=d7ca13bc"></img>
+<img width=50% src="https://salomohendriansudjono.carrd.co/assets/images/gallery09/3f51be1a_original.jpg?v=d7ca13bc"></img>
+
+---
+
 ### The Author
 <p>
   <img alt="Salomo Hendrian Sudjono" title="Salomo Hendrian Sudjono" src="https://custom-icon-badges.demolab.com/badge/-Salomo%20Hendrian%20Sudjono-blue?style=for-the-badge&logo=person-fill&logoColor=white"/>
